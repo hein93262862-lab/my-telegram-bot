@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 import google.generativeai as genai
 
-TELEGRAM_TOKEN = "8898620118:AAGczTforK4nk0ljzuspNSUSmr3wvshPbOQ"
+TELEGRAM_TOKEN = "8898620118:AAGWpDwR0q-XrA2h61Yv0zwwpmzvdbE0tw8"
 GOOGLE_API_KEY = "AQ.Ab8RN6IU6lG5s1-k-we7lckaZip_8SlU263guPV33o_PJ-INCw"
 
 genai.configure(api_key=GOOGLE_API_KEY)
