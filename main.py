@@ -6,8 +6,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import google.generativeai as genai
 
 # 1. Environment Variables မှ Key များကို ခေါ်ယူခြင်း (လုံခြုံရေးအတွက်)
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8898620118:AAGWpDwR0q-XrA2h61Yv0zwwpmzvdbE0tw8")
+os.environ.get("AQ.Ab8RN6LkXtmC7ucig_TUbAwjqRPznAn3EJPvrr2uqxWIAPaSBg")
 
 # Flask Setup
 app = Flask(__name__)
